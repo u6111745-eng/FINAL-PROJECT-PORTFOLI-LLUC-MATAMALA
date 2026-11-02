@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lluc Matamala | Nightlife Photographer</title>
+
+    <!-- Tipografies del Design System -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icones IcoMoon Free a través d'Iconify -->
+    <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+
+    <!-- El CSS està a la mateixa carpeta que l'index -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="./JS/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- HERO -->
+    <section class="hero" id="inici">
+      <div class="hero-background">
+        <img src="IMAGES/hero.jpg" alt="Fotografia de discoteca" />
+      </div>
+      <div class="hero-overlay"></div>
+
+      <div class="container">
+        <header class="header">
+          <a class="logo" href="#inici">LLUC MATAMALA</a>
+
+          <!-- Navegació desktop -->
+          <nav class="navigation" aria-label="Navegació principal">
+            <a href="#portfolio">PORTFOLI</a>
+            <a href="#sobre-mi">SOBRE MI</a>
+            <a href="#serveis">SERVEIS</a>
+            <a href="#contacte">CONTACTE</a>
+          </nav>
+
+          <!-- Aquest botó apareixerà només a mobile -->
+          <button
+            class="menu-button"
+            type="button"
+            aria-label="Obrir el menú"
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </header>
+
+        <div class="hero-content">
+          <p class="section-number">LLUC MATAMALA / NIGHTLIFE PHOTOGRAPHY</p>
+          <h1>NIGHTLIFE<br />PHOTOGRAPHER</h1>
+          <p class="hero-description">
+            Capturant l'energia, els moments i l'ambient de la nit.
+          </p>
+
+          <div class="button">
+            <a href="#portfolio">ELS MEUS TREBALLS</a>
+          </div>
+        </div>
+
+        <p class="scroll-text">SCROLL TO EXPLORE</p>
+      </div>
+    </section>
+
+    <!-- MENÚ MOBILE: s'obre des de la dreta amb JavaScript -->
+    <div class="menu-background"></div>
+    <aside
+      class="mobile-menu"
+      id="mobile-menu"
+      aria-label="Menú mòbil"
+      aria-hidden="true"
+    >
+      <div class="menu-header">
+        <p>LLUC MATAMALA</p>
+        <button class="close-menu" type="button" aria-label="Tancar el menú">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <nav class="mobile-navigation" aria-label="Navegació mòbil">
+        <a href="#portfolio"><span>01</span> PORTFOLI</a>
+        <a href="#sobre-mi"><span>02</span> SOBRE MI</a>
+        <a href="#serveis"><span>03</span> SERVEIS</a>
+        <a href="#contacte"><span>04</span> CONTACTE</a>
+      </nav>
+
+      <p class="menu-footer">NIGHTLIFE PHOTOGRAPHER</p>
+    </aside>
+
+    <!-- SELECTED WORK -->
+    <section class="selected-works" id="portfolio">
+      <div class="container">
+        <div class="works-heading">
+          <p class="section-number">01 / PORTFOLI</p>
+          <h2>SELECTED WORK</h2>
+          <p>
+            Una selecció d'algunes de les meves fotografies treballant de nit a
+            discoteques.
+          </p>
+        </div>
+
+        <!-- Les fotografies estan dins la carpeta IMAGES -->
+        <div class="projects-grid">
+          <div class="gallery-image">
+            <img
+              src="IMAGES/gallery-01.jpg"
+              alt="Fotografia de la galeria 01"
+              loading="lazy"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="IMAGES/gallery-02.jpg"
+              alt="Fotografia de la galeria 02"
+              loading="lazy"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="IMAGES/gallery-03.jpg"
+              alt="Fotografia de la galeria 03"
+              loading="lazy"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="IMAGES/gallery-04.jpg"
+              alt="Fotografia de la galeria 04"
+              loading="lazy"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="IMAGES/gallery-05.jpg"
+              alt="Fotografia de la galeria 05"
+              loading="lazy"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="IMAGES/gallery-06.jpg"
+              alt="Fotografia de la galeria 06"
+              loading="lazy"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="IMAGES/gallery-07.jpg"
+              alt="Fotografia de la galeria 07"
+              loading="lazy"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="IMAGES/gallery-08.jpg"
+              alt="Fotografia de la galeria 08"
+              loading="lazy"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="IMAGES/gallery-09.jpg"
+              alt="Fotografia de la galeria 09"
+              loading="lazy"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="IMAGES/gallery-10.jpg"
+              alt="Fotografia de la galeria 10"
+              loading="lazy"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="IMAGES/gallery-11.jpg"
+              alt="Fotografia de la galeria 11"
+              loading="lazy"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="IMAGES/gallery-12.jpg"
+              alt="Fotografia de la galeria 12"
+              loading="lazy"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="IMAGES/gallery-13.jpg"
+              alt="Fotografia de la galeria 13"
+              loading="lazy"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="IMAGES/gallery-14.jpg"
+              alt="Fotografia de la galeria 14"
+              loading="lazy"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="IMAGES/gallery-15.jpg"
+              alt="Fotografia de la galeria 15"
+              loading="lazy"
+            />
+          </div>
+          <div class="gallery-image">
+            <img
+              src="IMAGES/gallery-16.jpg"
+              alt="Fotografia de la galeria 16"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISUALITZADOR DE FOTOGRAFIES -->
+    <div class="lightbox">
+      <button class="lightbox-close" aria-label="Tancar">×</button>
+
+      <button class="lightbox-prev" aria-label="Anterior">‹</button>
+
+      <img class="lightbox-image" src="" alt="Fotografia ampliada" />
+
+      <button class="lightbox-next" aria-label="Següent">›</button>
+    </div>
+
+    <!-- ABOUT ME -->
+    <section class="about-me" id="sobre-mi">
+      <div class="container">
+        <div class="about-image">
+          <img
+            src="IMAGES/about.jpg"
+            alt="Lluc Matamala fent fotografia de nit"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="about-content">
+          <p class="section-number">02 / SOBRE MI</p>
+          <h2>DARRERE DE<br />CADA IMATGE.</h2>
+          <p>
+            Soc en Lluc Matamala, fotògraf especialitzat en el sector de la nit.
+            Porto un any treballant com a fotògraf resident d'una discoteca,
+            capturant l'energia, les expressions i els moments que fan única
+            cada festa.
+          </p>
+          <p>
+            Durant la nit mantinc una actitud molt proactiva, buscant
+            constantment records, emocions i situacions reals, més enllà de les
+            típiques fotografies de sala. El meu objectiu és documentar
+            l'experiència completa i transformar-la en imatges amb vida pròpia.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTOGRAPHY SERVICES -->
+    <section class="photography-services" id="serveis">
+      <div class="container">
+        <div class="services-heading">
+          <p class="section-number">03 / SERVEIS</p>
+          <h2>PHOTOGRAPHY SERVICES</h2>
+          <p>
+            Capturant artistes, ambients i persones per explicar cada nit a
+            través de les imatges.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <img
+              src="IMAGES/service-dj.jpg"
+              alt="Fotografia de DJ en directe"
+              loading="lazy"
+            />
+            <h3>DJ SETS</h3>
+          </div>
+
+          <div class="service-card">
+            <img
+              src="IMAGES/service-ambient.jpg"
+              alt="Ambient d'una discoteca"
+              loading="lazy"
+            />
+            <h3>AMBIENTS</h3>
+          </div>
+
+          <div class="service-card">
+            <img
+              src="IMAGES/service-people.jpg"
+              alt="Persones gaudint de la festa"
+              loading="lazy"
+            />
+            <h3>PERSONES</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTE -->
+    <section class="contact" id="contacte">
+      <div class="container">
+        <p class="section-number">04 / CONTACTE</p>
+        <h2>TREBALLEM<br />JUNTS!</h2>
+        <p>
+          Tens una festa, un concert o un projecte entre mans?<br />Parlem-ne i
+          capturem junts els moments que el faran únic.
+        </p>
+
+        <div class="button">
+          <!-- Quan tinguem el teu correu real, canviarem aquest enllaç per un mailto: -->
+          <a href="#footer">CONTACTA'M</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="footer-info">
+          <h3>LLUC MATAMALA</h3>
+          <p>NIGHTLIFE PHOTOGRAPHER</p>
+        </div>
+
+        <div class="social-icons">
+          <!-- Substituirem els # pels teus enllaços reals -->
+          <a href="#" aria-label="Instagram">
+            <span class="iconify" data-icon="icomoon-free:instagram"></span>
+          </a>
+          <a href="#" aria-label="WhatsApp">
+            <span class="iconify" data-icon="icomoon-free:whatsapp"></span>
+          </a>
+          <a href="#" aria-label="Correu electrònic">
+            <span class="iconify" data-icon="icomoon-free:mail4"></span>
+          </a>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 LLUC MATAMALA</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript a la mateixa carpeta que l'index -->
+    <script src="script.js"></script>
+  </body>
+</html>
